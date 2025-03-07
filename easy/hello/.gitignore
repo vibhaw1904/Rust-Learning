@@ -1,0 +1,28 @@
+# Binaries and build artifacts
+target/
+debug/
+release/
+
+# Cargo package manager files
+**/Cargo.lock
+**/target/
+
+# Rust compilation cache
+*.rlib
+*.rmeta
+
+# Rust test files
+*.dSYM/
+*.profraw
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# MacOS system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
